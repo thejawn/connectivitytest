@@ -9,8 +9,8 @@ use WWW::Shorten::TinyURL;
 
 my $cgi = new CGI;
 my $dbh = DBI->connect("dbi:mysql:database=connectivity;host=localhost",
-        "sunrise",
-        "sunrise",
+        "connectivity",
+        "connectivity",
         {'RaiseError' => 1 }
         ) or die;
 
