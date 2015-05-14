@@ -10,4 +10,8 @@ The Server just need a MySql or Maria DB, copy and paste TableMaker.txt into the
 
 I know, nothing is commented, I should read the Pragmatic Programmer again.
 
+You can run the client on as many computers as you'd like, and the server will automatically pick them up, and log them separately. It will also create an 'others' average, for how often the other computers disconnect.
+
+
+
 This is my first GitHub Entry... good luck
