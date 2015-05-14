@@ -4,6 +4,10 @@ To measure the uptime/outages of the local network vs. public network... So that
 
 The program is two parts: 
 
-Client:
+The client can be run as a task in the background, or you can run it in the foreground. Just set your options in the config file
 
-Run the Perl script connectivitytest.pl as a task, make sure you start the task in the same subfolder. Modify the config file for your situation.
+The Server just need a MySql or Maria DB, copy and paste TableMaker.txt into the database terminal.
+
+I know, nothing is commented, I should read the Pragmatic Programmer again.
+
+This is my first GitHub Entry... good luck
