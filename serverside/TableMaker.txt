@@ -1,0 +1,21 @@
+CREATE DATABASE connectivity;
+use connectivity;
+Grant all on connectivity.* to connectivity@localhost identified by 'connectivity';
+
+CREATE TABLE IF NOT EXISTS users ( \
+ id INT NOT NULL AUTO_INCREMENT KEY, \
+ authcode VARCHAR(200) NOT NULL, \
+ postalcode VARCHAR(10)
+ );
+
+CREATE TABLE IF NOT EXISTS pings ( \
+ id INT NOT NULL AUTO_INCREMENT KEY, \
+ type VARCHAR(20),\
+ url VARCHAR(40), \
+ response VARCHAR(5), \
+ date VARCHAR(10), \
+ time VARCHAR(10), \
+ ipaddress VARCHAR(20), \
+ increment INT, \
+ authid INT
+ );
