@@ -1,0 +1,7 @@
+increment = 10
+PostalCode = N0N1J0
+serverurl = https://my-sweet-url/
+#Hosts
+remote => google.com
+local => 192.168.1.1
+dns => 8.8.8.8
