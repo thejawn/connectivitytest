@@ -1,5 +1,9 @@
 #!/usr/bin/perl
 
+# This program reads the config data, gets the right site, and then opens chrome with the
+# right link for your computer. After running once, you could just bookmark the page and
+# never use this script again. 
+
 use strict;
 use warnings;
 use Cwd;
