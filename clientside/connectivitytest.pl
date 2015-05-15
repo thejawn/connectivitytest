@@ -139,7 +139,7 @@ sub dataposter() {
 		my @datarows = split('\?\?', $raw_text);
 	use LWP::UserAgent;
 	my $ua = LWP::UserAgent->new();
-	$ua->timeout(2);
+	$ua->timeout(200);
 	my $server = $serverurl . 'receiver.pl';
 
 	my $id = &idsetter();
